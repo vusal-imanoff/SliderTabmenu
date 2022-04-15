@@ -1,39 +1,39 @@
-// let myarrimg = [
-//     "images/img1.jpg",
-//     "images/img2.png",
-//     "images/img3.jpg",
-//     "images/img4.png"
-// ]
+let myarrimg = [
+    "images/img1.jpg",
+    "images/img2.png",
+    "images/img3.jpg",
+    "images/img4.png"
+]
 
-// let img = document.querySelector('.slider img');
-// let counter = 0;
-// img.src = myarrimg[counter];
+let img = document.querySelector('.slider img');
+let counter = 0;
+img.src = myarrimg[counter];
 
-// let next = document.querySelector(".next")
-// next.onclick = function () {
-//     counter++;
-//     if (counter > myarrimg.length - 1) {
-//         counter = 0;
-//     }
-//     img.src = myarrimg[counter];
-// }
+let next = document.querySelector(".next")
+next.onclick = function () {
+    counter++;
+    if (counter > myarrimg.length - 1) {
+        counter = 0;
+    }
+    img.src = myarrimg[counter];
+}
 
-// let prev = document.querySelector(".prev")
-// prev.onclick = function () {
-//     counter--;
-//     if (counter == -1) {
-//         counter = myarrimg.length - 1;
-//     }
-//     img.src = myarrimg[counter]
-// }
-// function Play(){
-//     counter++;
-//     if (counter > myarrimg.length - 1) {
-//         counter = 0;
-//     }
-//     img.src = myarrimg[counter];
-// }
-// setInterval(Play,5000)
+let prev = document.querySelector(".prev")
+prev.onclick = function () {
+    counter--;
+    if (counter == -1) {
+        counter = myarrimg.length - 1;
+    }
+    img.src = myarrimg[counter]
+}
+function Play(){
+    counter++;
+    if (counter > myarrimg.length - 1) {
+        counter = 0;
+    }
+    img.src = myarrimg[counter];
+}
+setInterval(Play,5000)
 
 
 let buttons = document.querySelectorAll('.tab_links button')

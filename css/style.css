@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* .slider{
+.slider{
     position: relative;
 }
 .slider img{
@@ -24,7 +24,7 @@
 }
 .next{
     right: 10px;
-} */
+}
 
 
 .tab_links  button{
