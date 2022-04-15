@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .slider{
+    position: relative;
+}
+.slider img{
+    width: 100%;
+    height: 500px;
+    user-select: none;
+}
+.next,.prev{
+    position: absolute;
+    top: 50%;
+    padding: 10px 5px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    cursor: pointer;
+}
+.prev{
+    left: 10px;
+}
+.next{
+    right: 10px;
+} */
+
+
+.tab_links  button{
+    padding: 3px 15px;
+    margin-right: 20px;
+    cursor: pointer;
+    color: #fff;
+    background-color: black;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.4s;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: blue;
+}
+.active{
+    background-color: blue !important;
+}
+
+.tab_content div{
+    border: 1px solid black;
+    width: 50%;
+    margin-top:20px ;
+    margin-left: 30px;
+}
